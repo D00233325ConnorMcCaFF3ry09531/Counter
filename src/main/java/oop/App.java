@@ -16,11 +16,34 @@ public class App
         System.out.println("\n*** Counter App ***");
 
         Counter myCounter = new Counter(10);
+        Counter otherone = new Counter();
+        myCounter.undo();
         myCounter.display();
         myCounter.click();
         myCounter.click();
         myCounter.click();
+myCounter.reset();
+myCounter.click();
+        myCounter.display();
+        myCounter.click();
+        myCounter.click();
+        myCounter.undo();
+        myCounter.click();
+myCounter.undo();
+        myCounter.undo();
+        myCounter.undo();
+        myCounter.undo();
+        myCounter.undo();
+        myCounter.undo();
+        myCounter.undo();
+        myCounter.display();
 
+
+        otherone.click();
+        otherone.undo();
+        otherone.undo();
+        otherone.click();
+        otherone.display();
         //TODO - add call to reset() that you implement in Counter class
 
 
