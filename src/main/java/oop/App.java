@@ -36,8 +36,18 @@ myCounter.undo();
         myCounter.undo();
         myCounter.undo();
         myCounter.undo();
+        myCounter.click();
         myCounter.display();
 
+        myCounter.click();
+        myCounter.click();
+        myCounter.click();
+        myCounter.click();
+        myCounter.click();
+        myCounter.click();
+        myCounter.click();
+        myCounter.click();
+        myCounter.click();
 
         otherone.click();
         otherone.undo();
